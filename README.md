@@ -1,5 +1,32 @@
 # Logistics Horizon - RouteFinder
 
+- [Logistics Horizon - RouteFinder](#logistics-horizon---routefinder)
+  - [**Description**](#description)
+  - [**Screenshots**](#screenshots)
+  - [**Diagrams and Documents**](#diagrams-and-documents)
+    - [Business Case](#business-case)
+    - [Risk Register](#risk-register)
+    - [Frontend Diagrams](#frontend-diagrams)
+      - [Wireframes](#wireframes)
+        - [Main Page](#main-page)
+        - [Order Page](#order-page)
+      - [Component Diagram](#component-diagram)
+    - [Backend Diagrams](#backend-diagrams)
+      - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
+      - [Class Diagram (UML)](#class-diagram-uml)
+        - [Models](#models)
+        - [API Layers](#api-layers)
+  - [**Setup and Installation**](#setup-and-installation)
+  - [**Tech Stack and Dependencies**](#tech-stack-and-dependencies)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+  - [API Route Endpoints](#api-route-endpoints)
+  - [**MVP, Extensions and Summary**](#mvp-extensions-and-summary)
+    - [MVP](#mvp)
+    - [Extensions](#extensions)
+    - [Summary](#summary)
+  - [**_Colllaborators_**](#colllaborators)
+
 ## **Description**
 
 This Capstone project aims aims to solve the business problem for a mock company called Rainforest Retail, which were having logistic issues of orders being manually sent to the warehouse and having vans that covered a specific route on a specific day regardless of the delivery amount. If a van had no room the delivery was delayed to the day after and there were uneven distribution of orders so that one van might be empty while another may be full, meaning those deliveries would have to wait untill the next time that van drove along that route again. This resulted in poor utlization of the delivery vehicles and resulted in deliveries being delayed during busy periods.
