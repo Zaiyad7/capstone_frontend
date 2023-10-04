@@ -127,7 +127,7 @@ This is the tech stack what was used for this project. To run this project you w
 |            | POST    | localhost:8080/routes                          | creates a route                                                                                 |                                          |
 |            | PATCH   | localhost:8080/routes/{routeId}/assign/{vanId} | Assigns a specific route to a specific van via their id values                                  |                                          |
 |            | PATCH   | localhost:8080/routes/{id}                     | Allows for routes distance to be updated by passing in routeId and then passing in the distance |                                          |
-|            | DELETE  | localhost:8080/routes/{id}                     | Deletes route with Id ={id}                                                                     | \*\*                                     |
+|            | DELETE  | localhost:8080/routes/{id}                     | Deletes route with Id ={id}                                                                     |                                          |
 | Van        | GET     | localhost:8080/vans                            | show all vans                                                                                   |                                          |
 |            | GET     | localhost:8080/vans/{id}                       | index show van with id={id}                                                                     |                                          |
 
