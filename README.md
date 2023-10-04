@@ -2,11 +2,11 @@
 
 ## **Description**
 
-This Capstone project aims aims to solve the business problem for a mock company called Rainforest Retail, which were having logistic issues of orders being manually sent to the warehouse and having vans that covered a specific route on a specific day regardless of the delivery amount. If there was no room in a van the delivery was delayed to the day after and there was also uneven distribution of orders allocated to the vans so that one truck might be empty and another may be full which meant those deliveries would have to wait untill the next time that van drove that route again. This resulted in a poor utlization of the delivery vehicles and deliveries being delayed during busy periods.
+This Capstone project aims aims to solve the business problem for a mock company called Rainforest Retail, which were having logistic issues of orders being manually sent to the warehouse and having vans that covered a specific route on a specific day regardless of the delivery amount. If a van had no room the delivery was delayed to the day after and there were uneven distribution of orders so that one van might be empty while another may be full, meaning those deliveries would have to wait untill the next time that van drove along that route again. This resulted in poor utlization of the delivery vehicles and resulted in deliveries being delayed during busy periods.
 
-Our app planned to solve this by optimizing the usage of delivery vehicles to ensure that the vans would have adaptable routes based on the amount of orders. We would build a digital interface for the driver, so they could see what route they were assigned to and what orders are assigned to the route, as well as optimizing the delivery route to ensure the fastest delivery time and to optimize the orders assigned between all the vans so that they weren't half empty or overfilled so that they're being used effectively.
+Our app planned to solve this by optimizing the usage of delivery vehicles to ensure that the vans would have adaptable routes based on the amount of orders. We would build a digital interface for the driver, so they could see what route they were assigned to and what orders are assigned to that route.In addition we pllaned on optimizing the delivery route to ensure the fastest delivery time and to optimize the orders assigned between all the vans so that they weren't half empty or overfilled so that they're being utlized effectively.
 
-This app generates a route based on a number of orders with co-ordinates assiged to them and displays it on a map interface similar to google map, which a driver can use to navigate and deliver those packages.
+This app generates a route based on a number of orders with co-ordinates assiged to them and displays it on a map interface similar to google maps, which a driver can use to navigate and deliver those orders.
 
 ## **Demo**
 
@@ -99,6 +99,27 @@ This is the tech stack what was used for this project. To run this project you w
 |            | DELETE  | localhost:8080/routes/{id}                     | Deletes route with Id ={id}                                                                     | \*\*                                     |
 | Van        | GET     | localhost:8080/vans                            | show all vans                                                                                   |                                          |
 |            | GET     | localhost:8080/vans/{id}                       | index show van with id={id}                                                                     |                                          |
+
+## **MVP, Extensions and Summary**
+
+### MVP
+
+- [x] Load in orders from Backend
+- [x] Select orders on Frontend for routes and populate list of orders in each route
+- [x] Generate route on the Frontend
+- [x] Display route on map with waypoints
+- [x] Select delivery point to show more information
+
+### Extensions
+
+- [x] Delete Mapping for Route
+- [x] Ability to create new Route
+- [ ] Search functionality
+- [ ] Adding tests
+- [ ] Edit vans
+- [ ] Use distance matrix to work out most optimised routes for number of orders and vehicles
+- [ ] Add capacity constraints based on vehicle capacity
+- [ ] Optimize route with Optimization API
 
 ## **_Colllaborators_**
 
