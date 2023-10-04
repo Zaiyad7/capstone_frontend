@@ -121,6 +121,12 @@ This is the tech stack what was used for this project. To run this project you w
 - [ ] Add capacity constraints based on vehicle capacity
 - [ ] Optimize route with Optimization API
 
+### Summary
+
+We were successful in completing our MVP and a some of our extensions. Our group managed to succesfully display multiple routes on a webpage with a number of labelled orders assosciated with those routes and the ability to mark those orders as delivered. The main extensions we would like to add is the optimization of those routes so that they are in fact the most optimal path for the driver to take, we also had permission to use the Mapbox v2 API that was in closed beta which would give us the ability to optimise multiple routes at once and display them on the map.
+
+Unfortunately we recieved that permission late into our project so we were unable to implement those features, also we would like to be able to use reverse geocoding in order to convert geographic co-ordinates into location names. Another thing we would like to add is unit testing and end to end testing in our application, as well as some general refactoring to make the codebase easier to extend, in addition we were considering incorporating a login page for the driver with authentication.
+
 ## **_Colllaborators_**
 
 - Callum [cbattenplowright](https://github.com/cbattenplowright)
