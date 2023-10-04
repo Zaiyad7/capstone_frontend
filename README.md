@@ -1,8 +1,84 @@
-# React + Vite
+# Logistics Horizon - RouteFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This Capstone project aims aims to solve the business problem for a mock company called Rainforest Retail, which were having logistic issues of orders being manually sent to the warehouse and having vans that covered a specific route on a specific day regardless of the delivery amount. If there was no room in a van the delivery was delayed to the day after and there was also uneven distribution of orders allocated to the vans so that one truck might be empty and another may be full which meant those deliveries would have to wait untill the next time that van drove that route again. This resulted in a poor utlization of the delivery vehicles and deliveries being delayed during busy periods.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Our app planned to solve this by optimizing the usage of delivery vehicles to ensure that the vans would have adaptable routes based on the amount of orders. We would build a digital interface for the driver, so they could see what route they were assigned to and what orders are assigned to the route, as well as optimizing the delivery route to ensure the fastest delivery time and to optimize the orders assigned between all the vans so that they weren't half empty or overfilled so that they're being used effectively.
+
+This app generates a route based on a number of orders with co-ordinates assiged to them and displays it on a map interface similar to google map, which a driver can use to navigate and deliver those packages.
+
+## Setup and Installation
+
+This project was done using Spring for the backend and React for the frontend. After cloning the backend repository a database should be created called logisitcs_db and you should run the program on IntelliJ IDEA. This will start the server code and you can use Postman to generate to look at the routes for the API.
+
+After running the server on the backend you will need to clone the frontend repository and do an npm i to install the relevant dependencies, you can run the program using visual studio code and use npm run dev to start the server. You will need a mapbox API key in order for the routes to be generated, which is free to use for about 100,000 requests per month and it is reccomended you create an enviroment variable (.env file) outside the source folder and store the api key as:
+VITE_APIKEY = 'your mapbox key'.
+
+## Tech Stack and Dependencies
+
+This is the tech stack what was used for this project. To run this project you will need to install IntelliJ IDEA, JDK 17, postgresSQL and visual studio code.
+
+### Backend
+
+- IntelliJ IDEA
+- JDK 17
+- Maven
+- postgresSQL
+- Spring Boot 3.1.4
+- Spring Data JPA
+- Spring Web
+- PostgresSQL Driver
+- Spring DevTools
+
+### Frontend
+
+- Visual Studio Code
+- React 18.2.0
+- React Modal
+- React Router
+- Mapbox API
+
+## Diagrams and Documents
+
+### Business Case
+
+[Business Case](../../../../Downloads/Capstone_Business_Case.pdf)
+
+### Risk Register
+
+[Risk Register](<../../../../Downloads/Capstone Risk Register - Simple Business Risk Register.pdf>)
+
+### Frontend Diagrams
+
+#### Wireframes
+
+##### Main Page
+
+![Wireframe_mainPage](<Capstone Wireframe.png>)
+
+##### Order Page
+
+![Wireframe_orderPage](<Capstone Wireframe order page.png>)
+
+#### Component Diagram
+
+![Component Diagram](component_diagram_final.png)
+
+### Backend Diagrams
+
+#### Entity Relationship Diagram (ERD)
+
+![ERD](erd_diagram_final.png)
+
+#### Class Diagram (UML)
+
+##### Models
+
+![Models](models_final.png)
+
+##### API Layers
+
+![API Layers](API_layers_final.png)
+
+####
