@@ -103,4 +103,7 @@ This is the tech stack what was used for this project. To run this project you w
 ## **_Colllaborators_**
 
 - Callum [cbattenplowright](https://github.com/cbattenplowright)
--
+- Kevin [Kibiko](https://github.com/Kibiko)
+- Rohaib [rohaib1](https://github.com/rohaib1)
+- Zaiyad [Zaiyad7](https://github.com/Zaiyad7)
+- Michaelson [mikeycb96](https://github.com/mikeycb96)
