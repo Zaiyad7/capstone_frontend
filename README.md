@@ -8,7 +8,11 @@ Our app planned to solve this by optimizing the usage of delivery vehicles to en
 
 This app generates a route based on a number of orders with co-ordinates assiged to them and displays it on a map interface similar to google maps, which a driver can use to navigate and deliver those orders.
 
-## **Demo**
+## **Screenshots**
+
+![Display_route](<Screenshot 2023-10-04 at 13.44.42.png>)
+![Order_page](<Screenshot 2023-10-04 at 13.43.29.png>)
+![Order_modal](<Screenshot 2023-10-04 at 13.45.05.png>)
 
 ## **Diagrams and Documents**
 
